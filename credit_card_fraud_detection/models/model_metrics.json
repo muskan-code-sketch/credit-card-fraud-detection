@@ -1,0 +1,128 @@
+{
+  "Logistic Regression (Class Weighted)": {
+    "model_name": "Logistic Regression (Class Weighted)",
+    "threshold": 0.5,
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "f2_score": 1.0,
+    "roc_auc": 1.0,
+    "pr_auc": 1.0,
+    "confusion_matrix": {
+      "tn": 19966,
+      "fp": 0,
+      "fn": 0,
+      "tp": 34
+    },
+    "optimal_thresholds": {
+      "best_f1_threshold": 0.04,
+      "best_f1": 1.0,
+      "best_f2_threshold": 0.04,
+      "best_f2": 1.0,
+      "best_cost_threshold": 0.04,
+      "min_cost": 0.0
+    }
+  },
+  "Random Forest (Class Weighted)": {
+    "model_name": "Random Forest (Class Weighted)",
+    "threshold": 0.5,
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "f2_score": 1.0,
+    "roc_auc": 1.0,
+    "pr_auc": 1.0,
+    "confusion_matrix": {
+      "tn": 19966,
+      "fp": 0,
+      "fn": 0,
+      "tp": 34
+    },
+    "optimal_thresholds": {
+      "best_f1_threshold": 0.08,
+      "best_f1": 1.0,
+      "best_f2_threshold": 0.08,
+      "best_f2": 1.0,
+      "best_cost_threshold": 0.08,
+      "min_cost": 0.0
+    }
+  },
+  "XGBoost (Cost-Sensitive Weighted)": {
+    "model_name": "XGBoost (Cost-Sensitive Weighted)",
+    "threshold": 0.5,
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "f2_score": 1.0,
+    "roc_auc": 1.0,
+    "pr_auc": 1.0,
+    "confusion_matrix": {
+      "tn": 19966,
+      "fp": 0,
+      "fn": 0,
+      "tp": 34
+    },
+    "optimal_thresholds": {
+      "best_f1_threshold": 0.02,
+      "best_f1": 1.0,
+      "best_f2_threshold": 0.02,
+      "best_f2": 1.0,
+      "best_cost_threshold": 0.02,
+      "min_cost": 0.0
+    }
+  },
+  "Logistic Regression + SMOTE": {
+    "model_name": "Logistic Regression + SMOTE",
+    "threshold": 0.5,
+    "accuracy": 0.99995,
+    "precision": 0.9714285714285714,
+    "recall": 1.0,
+    "f1_score": 0.9855072463768116,
+    "f2_score": 0.9941520467836257,
+    "roc_auc": 1.0,
+    "pr_auc": 1.0,
+    "confusion_matrix": {
+      "tn": 19965,
+      "fp": 1,
+      "fn": 0,
+      "tp": 34
+    },
+    "optimal_thresholds": {
+      "best_f1_threshold": 0.86,
+      "best_f1": 1.0,
+      "best_f2_threshold": 0.86,
+      "best_f2": 1.0,
+      "best_cost_threshold": 0.86,
+      "min_cost": 0.0
+    }
+  },
+  "XGBoost + SMOTE": {
+    "model_name": "XGBoost + SMOTE",
+    "threshold": 0.5,
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "f2_score": 1.0,
+    "roc_auc": 1.0,
+    "pr_auc": 1.0,
+    "confusion_matrix": {
+      "tn": 19966,
+      "fp": 0,
+      "fn": 0,
+      "tp": 34
+    },
+    "optimal_thresholds": {
+      "best_f1_threshold": 0.01,
+      "best_f1": 1.0,
+      "best_f2_threshold": 0.01,
+      "best_f2": 1.0,
+      "best_cost_threshold": 0.01,
+      "min_cost": 0.0
+    }
+  },
+  "_best_model": "Logistic Regression (Class Weighted)"
+}
